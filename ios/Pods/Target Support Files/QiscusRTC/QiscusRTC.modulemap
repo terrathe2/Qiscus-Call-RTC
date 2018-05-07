@@ -1,0 +1,6 @@
+framework module QiscusRTC {
+  umbrella header "QiscusRTC-umbrella.h"
+
+  export *
+  module * { export * }
+}

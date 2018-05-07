@@ -1,0 +1,1800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C1AD8F290B159D0FB099728B4350F0 /* reconnecting.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F434EF7FC7026934CE81A8BFDFCB5862 /* reconnecting.mp3 */; };
+		03C104E5372D10A1D5C5B22DBD173C13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A41E3E051055AB7A7BB5C0746CC0756 /* UIKit.framework */; };
+		05006BDD7301FCF2678618DEDCC69B94 /* UIImage+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33D5360628DFB7741B35E0A7F97660A /* UIImage+AlamofireImage.swift */; };
+		059970D2F001E70D2A9E351AEB59E069 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FE5053F2C6189823A73D6FCB3060A9 /* Foundation.framework */; };
+		09D8CE50716317B8EEAFA892E13BE8B9 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F810010D2DC3463766A0D5A2A524481 /* SoundManager.swift */; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF6528CE4AB8E2865B6A8000103A068 /* Timeline.swift */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1044BEA7EBE6CE6A0EF97CD56A279C80 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		202822E4668C16D115A8F68F3ADF0E0F /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F131405B56879E1C75C88B7A99A5FFDF /* ImageDownloader.swift */; };
+		21FC20C72EC313A3257110FCCB4A4C34 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C113A0499DF1CB2A855B4F4FBA710B0 /* SwiftyJSON-dummy.m */; };
+		247AAE39FBC51C67DD3A3C5548BBF549 /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = A363BA2C1F1F484E3A99DC394A012484 /* Call.swift */; };
+		26479B07464784F3BF8C0853CA049976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FE5053F2C6189823A73D6FCB3060A9 /* Foundation.framework */; };
+		27996F52CCABBD6D0874B79D1B913598 /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C1A32D25A67A272FB78401F213919 /* ImageFilter.swift */; };
+		28E15340B53568A4CF479CB762E6564D /* CallUIPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B7FCEB9D9F360C4526217D8E7EC3DC /* CallUIPresenter.swift */; };
+		2BD7CFD41DACC439E8C0A527F1643495 /* Request+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CE63ABA838EF03D0FA8C443A12A81E /* Request+AlamofireImage.swift */; };
+		2C7BE3B01E737FBBE326380BD052946A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CDCA450284206EFB1F64216E4DE2A5 /* Alamofire.framework */; };
+		2CD94572E77F521B1CA058F82B31E6E1 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171D337A2A0A4294511B1DCCF4759D51 /* Starscream.framework */; };
+		2EA0415A1A8A4FFC7403E201F915F9A4 /* AFIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B76F617B79885BEF0F71B7037D2E2D /* AFIError.swift */; };
+		302EA7FE8ABAF8690F782412DB240654 /* CallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0C403F733ED79F8D7EBFF7ED940BE4 /* CallManager.swift */; };
+		304C5736AC5D49B526C709397D0CF048 /* UIImageView+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02037E23FAF9670C907F6A725CED7728 /* UIImageView+AlamofireImage.swift */; };
+		32EDA9ED83F4442303A46839027E152E /* AlamofireImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9308BD6F4119646E8B11EA17E4C70855 /* AlamofireImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB3EABE3F071275600F8B39A5A7E782 /* TaskDelegate.swift */; };
+		3779F1C8E248A25048E219D25FE67573 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39A14C1DE748D4834D8C5D7408554A1 /* Compression.swift */; };
+		37F951F2BDB75BD682C2999EB7B51A35 /* AlamofireImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D70D9EB671AD915D4F369EAF713B8 /* AlamofireImage-dummy.m */; };
+		3AA9A76668BE39406258C40B429E5470 /* QiscusRTC.h in Headers */ = {isa = PBXBuildFile; fileRef = E7ACBE66EE9E9C5E9C137356B9CAFF7A /* QiscusRTC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E7F8BE4A5AAA867077602464CDADEE8 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FB6ADCB8DA969654CB844B25360CCA /* CoreMotion.framework */; };
+		4ADFAB1293BFA8D1383CE73071533116 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FE5053F2C6189823A73D6FCB3060A9 /* Foundation.framework */; };
+		4B07642319B5724BC61C2D4D789979F3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF15A2E62ADC12B26966144DDB4C7BD /* AudioToolbox.framework */; };
+		5310487C9DD1869291835D53BFCBEEEE /* Systemconfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717CC5E58E4480F43E70DB6C8179C004 /* Systemconfiguration.framework */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8090D32CC570E5FEA9E94D45A4F84BDF /* Request.swift */; };
+		546FFA5E6A19961F41B8A5E1A6DBFAE6 /* QiscusRTC.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7EC30A26FDE0FA6A5FEF6440E21EC39F /* QiscusRTC.bundle */; };
+		5E8B8CC4950C6999BE8FDA2066F7125B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F18538465ECBD5ACC517CA01ACB6939 /* CoreTelephony.framework */; };
+		60B71025B18997E4B81F5F7F5A2E2B0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FE5053F2C6189823A73D6FCB3060A9 /* Foundation.framework */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F01024498EC05AB0CBD6C0721EE4A7E /* DispatchQueue+Alamofire.swift */; };
+		613167D898FF421A6F75D1FE5D145B9B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CDCA450284206EFB1F64216E4DE2A5 /* Alamofire.framework */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6911AC912AE10FD8670329E9C6A9A2F6 /* ServerTrustPolicy.swift */; };
+		653C54FB5C9908774703CBE1DD71B88F /* QiscusCallClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16B50D689409CA467FAB236C4B021BE /* QiscusCallClient.swift */; };
+		6B501CBEB1206E75E708178A889AD775 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4AD21B264902753277A2007A2E8BCA /* AVFoundation.framework */; };
+		70E1F59171092D02A4B36AF54E746081 /* CallEnggine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA090F8A22A0130B7B1FA5A11019FE2 /* CallEnggine.swift */; };
+		72082FE999ED1C5A8BD667DD19D95AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C35E03EAFBEDDA1659ACFF466E6D1158 /* Assets.xcassets */; };
+		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FE5053F2C6189823A73D6FCB3060A9 /* Foundation.framework */; };
+		73D4642B1BA85256D9908EFAC9B633D2 /* Pods-Qiscus_VideoCall_IOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FABCA22DEC67585C4EDC8E4E14E85D6 /* Pods-Qiscus_VideoCall_IOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		757223161E698D495339F43AA5323B96 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9207B52B80B2C97A078E604FB16C63B /* AlamofireImage.framework */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0F82A5F651BA4603B78641D8F62A1F /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDCFB20CA733197A0442726D51D3C7C /* Result.swift */; };
+		80C3291AB8A07BE66A42545E9E71D7D2 /* QiscusRTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38EB3FC0DD98AAAAC094412C6591F1B /* QiscusRTC.swift */; };
+		83207794B4462A3B5EDC7FD0CFEEA758 /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2247F499A2A2A6F8B42DDDED4C31C2 /* Starscream-dummy.m */; };
+		89268DBF8ACFEE2D680BA824FAFCDB20 /* QiscusRTC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B466A05C12C4E0074C97275BB724AC /* QiscusRTC-dummy.m */; };
+		8E05C08558D951D4C62DAB3C3397A46B /* CallUI.xib in Sources */ = {isa = PBXBuildFile; fileRef = 0BC36375807401DDB0F3D496DBDA9A9D /* CallUI.xib */; };
+		8F2A7C81D0363C19B256DEBF85AF3750 /* CallUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE948D407788386869CBCCEEB2AD85 /* CallUser.swift */; };
+		9A45617E0FB01E3B9E6F08E8EF720784 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FE5053F2C6189823A73D6FCB3060A9 /* Foundation.framework */; };
+		9A4FD168EC0CA1BEB863BA0A4D2D29E4 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E542349E4098377F5E85B8325102005 /* SSLSecurity.swift */; };
+		9A58DF546EFA3FA856470EE7FAEBC386 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAB27C713F27DFEA3768C608E850BB3 /* SwiftyJSON.framework */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBFF9EA5D2BA5F3AF78C9B759AB2532 /* AFError.swift */; };
+		A0B65B0BA7DE2CEBEDBDE94FF841EA2C /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CE47D9929C891966C99AF06502F729 /* VideoToolbox.framework */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF302D02E08748DBFD5CA7533E89DB2 /* NetworkReachabilityManager.swift */; };
+		A50C58C0756C154D2BE3C9563AA53B80 /* VideoCallUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77ACD6705694CCEEF90248374D823E29 /* VideoCallUI.xib */; };
+		A5F006D20BDAD0B88B63EB37135BFD62 /* ApiCallEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9899ED8339FBC579A48DAC58C45F4989 /* ApiCallEndpoint.swift */; };
+		A7939F9D78CCF4DBDD5142D32B2AEC20 /* CallCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EA2B3BDD35AE78F99CE9DC149AD94B /* CallCenter.swift */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7818D6E03E9229CD7C1CB04F10C2668E /* Alamofire-dummy.m */; };
+		ABC6F9B159173467E0FCA9B2A68E73AF /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D70BE2D55216F7B23184E7A4936D3EF /* SwiftyJSON.swift */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF34F154684CF771DE6BE6CFC45F30A /* SessionManager.swift */; };
+		B24542DF06730E48FD3295402601E729 /* CallSignalPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D6BD561A5B5A261534379CD45386C /* CallSignalPayload.swift */; };
+		B25BE9635C10239F9643A2715CB7406F /* dialing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CF74A696A0E26F139019A4BAA9D3E41 /* dialing.mp3 */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756FBD77192BF3139F23351BCB625E54 /* MultipartFormData.swift */; };
+		BB87153F9A9CFAEE6B125B840BD93AD5 /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EED3111EAAEAAE3A7887A3C4B35644 /* ApiCall.swift */; };
+		BBB3959F36B1D0AA8C7AA98421DEE219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C35E03EAFBEDDA1659ACFF466E6D1158 /* Assets.xcassets */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC6D6CF428D3A13FE19841E21CCF9F3 /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FF9C7E504C77DBB5CC6C81789FB28 /* ParameterEncoding.swift */; };
+		C230A22BA0BB6A866EE42D356D14ED1F /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E61F6577E95EF8758AC01BA28EB7D0 /* WebSocket.swift */; };
+		C73BF39A4CCC3E450E102C23027F8FF8 /* UIButton+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BADC876CC3FB7B4BFF60FC8FAAFE4 /* UIButton+AlamofireImage.swift */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8B1D72AD5147AC31343972A52BCCFE /* Response.swift */; };
+		CE43EA500C9BEB4ECC0FABD98D941E19 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C97EFF2B8DB1A686F81B8A48EC888F5 /* CoreMedia.framework */; };
+		D2B224E579D540FFEB081747820D79A3 /* incoming.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F13DDD80E8E5C96D062E13881D0E173 /* incoming.mp3 */; };
+		D9E544B8CB42DA8DD44838F83610D8E0 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD99C87ADC86E086F18C35258BF8B6 /* ImageCache.swift */; };
+		DB955BE4B7D250B9FD1F09E6A77B2394 /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 783172B4696F4B2878B9641B768451BA /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE6EF976F1CD9AB7AD6A3FC25A0570C3 /* CallUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BC36375807401DDB0F3D496DBDA9A9D /* CallUI.xib */; };
+		DEC1CF4CEC7DD19A7B988D0E190655CA /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA6C43E069951D84F67ADFA45BC496FE /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1FF4985892E23B75A3381EFF830DFD5 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4548C637CE307B99F5FE0F01583F8 /* Image.swift */; };
+		E86F60B8BA9445AD04365BB083A205BC /* VideoCallUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C44936A8DB641D08476D9F5352B5D6A /* VideoCallUI.swift */; };
+		E89E93FA044CC67A6BCC386985CFD1B8 /* VideoCallUI.xib in Sources */ = {isa = PBXBuildFile; fileRef = 77ACD6705694CCEEF90248374D823E29 /* VideoCallUI.xib */; };
+		EDD13DEFF8AB0A0C86F873F352AD8860 /* Pods-Qiscus_VideoCall_IOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DFBB1EC6EDB951D7164D3B82ED2A18 /* Pods-Qiscus_VideoCall_IOS-dummy.m */; };
+		EDF267B1F1EE7FCCC0DDCC755108E258 /* QiscusRTC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B245D5320168E3D8732ADDA73705D7 /* QiscusRTC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2767A99B79CC62F488B47312AAAB98 /* Notifications.swift */; };
+		F21AE87286AA57AB22A1A45EE8BB4E5D /* CallUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746D24140957849EE03DA897027961E2 /* CallUI.swift */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E617CC97EEAAE3308A721EAED392BAFD /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = C015E3A906559FC0A0E8371BEF8CBFE8 /* Alamofire.swift */; };
+		F8CB85E8254E1D43245B8CEC76649244 /* CallSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D51D9D3916DA383FB0E5E833F24A28 /* CallSignal.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08A3EB79DC478EF95CFC58AFFECDA66C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EFE4C70245EE2857D336B8B9FA4E825;
+			remoteInfo = AlamofireImage;
+		};
+		27DDC3EAF262567F57ADC092BDAA1FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CC5A580A1186C89C6DB1BA8F8B9B222;
+			remoteInfo = Starscream;
+		};
+		29A4E2D8A72B96790DF705C746CC29B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25412BAEE60DCC6B96F2EFE4DC4C5C67;
+			remoteInfo = SwiftyJSON;
+		};
+		37E579BA6739D98A16DC246DFC42DA40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+		7E5CF54DFA0267B9C3EAEF6C1E060F0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+		802EE3C8CB79392E06DF79B6BB370FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CC5A580A1186C89C6DB1BA8F8B9B222;
+			remoteInfo = Starscream;
+		};
+		95DBEAB9756ECA70D9AFA666FB187B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD9C1F1EC39DD0B8CB69E70FE1831818;
+			remoteInfo = "QiscusRTC-QiscusRTC";
+		};
+		A1758AA696D56310AA192B587162169A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+		B96654E0AB3D8EEA5272E694D99FD970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25412BAEE60DCC6B96F2EFE4DC4C5C67;
+			remoteInfo = SwiftyJSON;
+		};
+		D32A5CB58AF35D955C360AC37BDFB864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 784C8957DF400A1DFC1E707986293646;
+			remoteInfo = QiscusRTC;
+		};
+		FA958CE07FB318F6BE999F8C4AD70493 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EFE4C70245EE2857D336B8B9FA4E825;
+			remoteInfo = AlamofireImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02037E23FAF9670C907F6A725CED7728 /* UIImageView+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+AlamofireImage.swift"; path = "Source/UIImageView+AlamofireImage.swift"; sourceTree = "<group>"; };
+		03DA9AD0A436CAFA8A41008B4CB44CBC /* RTCAVFoundationVideoSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCAVFoundationVideoSource.h; path = WebRTC.framework/Headers/RTCAVFoundationVideoSource.h; sourceTree = "<group>"; };
+		04EE948D407788386869CBCCEEB2AD85 /* CallUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallUser.swift; path = QiscusRTC/Models/CallUser.swift; sourceTree = "<group>"; };
+		067436BD2A2C258AAFA6AEA0F8A58168 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06E61F6577E95EF8758AC01BA28EB7D0 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/WebSocket.swift; sourceTree = "<group>"; };
+		09FE5053F2C6189823A73D6FCB3060A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0A41E3E051055AB7A7BB5C0746CC0756 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0AC8424969AA1F72AAB433AE201FC146 /* RTCVideoCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoCodec.h; path = WebRTC.framework/Headers/RTCVideoCodec.h; sourceTree = "<group>"; };
+		0BC36375807401DDB0F3D496DBDA9A9D /* CallUI.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CallUI.xib; path = QiscusRTC/Controllers/CallUI.xib; sourceTree = "<group>"; };
+		1044BEA7EBE6CE6A0EF97CD56A279C80 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		11B245D5320168E3D8732ADDA73705D7 /* QiscusRTC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QiscusRTC-umbrella.h"; sourceTree = "<group>"; };
+		171D337A2A0A4294511B1DCCF4759D51 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1763D30CE9880A900111F84A762F53A4 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		180A627A368D804B9EFC2B612FF8A7C3 /* RTCVideoCodecH264.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoCodecH264.h; path = WebRTC.framework/Headers/RTCVideoCodecH264.h; sourceTree = "<group>"; };
+		181B0A824940A8CFAEBDFCA92FEFF233 /* Pods-Qiscus_VideoCall_IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Qiscus_VideoCall_IOS.debug.xcconfig"; sourceTree = "<group>"; };
+		186A57C5F6A47EDA0B9BE0694132F080 /* RTCRtpParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCRtpParameters.h; path = WebRTC.framework/Headers/RTCRtpParameters.h; sourceTree = "<group>"; };
+		1BC4548C637CE307B99F5FE0F01583F8 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Source/Image.swift; sourceTree = "<group>"; };
+		1CF74A696A0E26F139019A4BAA9D3E41 /* dialing.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; name = dialing.mp3; path = QiscusRTC/Tone/dialing.mp3; sourceTree = "<group>"; };
+		1F13DDD80E8E5C96D062E13881D0E173 /* incoming.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; name = incoming.mp3; path = QiscusRTC/Tone/incoming.mp3; sourceTree = "<group>"; };
+		1F18538465ECBD5ACC517CA01ACB6939 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		1FFD99C87ADC86E086F18C35258BF8B6 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Source/ImageCache.swift; sourceTree = "<group>"; };
+		247D9F97CBAD395EF7C2489574A871D8 /* RTCRtpReceiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCRtpReceiver.h; path = WebRTC.framework/Headers/RTCRtpReceiver.h; sourceTree = "<group>"; };
+		26A4C6C12284A52193F4A0784E495A0C /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		27BB5AC72C235A2DC81286B492E73C13 /* RTCTracing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCTracing.h; path = WebRTC.framework/Headers/RTCTracing.h; sourceTree = "<group>"; };
+		28E44206B4E3BFF696B348C074CED11D /* RTCIceServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCIceServer.h; path = WebRTC.framework/Headers/RTCIceServer.h; sourceTree = "<group>"; };
+		2ADC940DBDA3DCB92EB70CECD952763C /* RTCLegacyStatsReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCLegacyStatsReport.h; path = WebRTC.framework/Headers/RTCLegacyStatsReport.h; sourceTree = "<group>"; };
+		2E4AA494173C4AC8A7AF9B57C2EE858A /* RTCDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCDispatcher.h; path = WebRTC.framework/Headers/RTCDispatcher.h; sourceTree = "<group>"; };
+		2FD081ACB3C203C120A0FF4B61A76F5F /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		31FB6ADCB8DA969654CB844B25360CCA /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		3292A3CC088AFFAE4023F82A62EAEAFD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334DE1B311E395FDB434B051A69A8A7D /* RTCVideoEncoderVP8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoEncoderVP8.h; path = WebRTC.framework/Headers/RTCVideoEncoderVP8.h; sourceTree = "<group>"; };
+		366B0E732C02A50A0392A083DA657719 /* RTCMediaConstraints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMediaConstraints.h; path = WebRTC.framework/Headers/RTCMediaConstraints.h; sourceTree = "<group>"; };
+		3AC6D6CF428D3A13FE19841E21CCF9F3 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		3B5937F95D01DCC6DBFBD359860AFF2A /* RTCAudioSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCAudioSession.h; path = WebRTC.framework/Headers/RTCAudioSession.h; sourceTree = "<group>"; };
+		3C97EFF2B8DB1A686F81B8A48EC888F5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		3CF74267B2EBCC028ECEDFF515ACC96F /* WebRTC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebRTC.h; path = WebRTC.framework/Headers/WebRTC.h; sourceTree = "<group>"; };
+		3D70BE2D55216F7B23184E7A4936D3EF /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		3DA5B41D6D45C3F8DE1BC4D3E23A8EC2 /* RTCVideoCodecFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoCodecFactory.h; path = WebRTC.framework/Headers/RTCVideoCodecFactory.h; sourceTree = "<group>"; };
+		3DF6528CE4AB8E2865B6A8000103A068 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		3E5CFA46F8F407E1F9BA01F3FAB793E5 /* RTCRtpSender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCRtpSender.h; path = WebRTC.framework/Headers/RTCRtpSender.h; sourceTree = "<group>"; };
+		3EDB7B2D9B03AD5FB1374A3B9B1C26C0 /* RTCConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCConfiguration.h; path = WebRTC.framework/Headers/RTCConfiguration.h; sourceTree = "<group>"; };
+		3EF15A2E62ADC12B26966144DDB4C7BD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		3FABCA22DEC67585C4EDC8E4E14E85D6 /* Pods-Qiscus_VideoCall_IOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Qiscus_VideoCall_IOS-umbrella.h"; sourceTree = "<group>"; };
+		415E50E3AEEF48EEC11C6697C4A869A0 /* RTCVideoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoTrack.h; path = WebRTC.framework/Headers/RTCVideoTrack.h; sourceTree = "<group>"; };
+		437A31C64F5BB61FEB4BA4A74B5D1DBE /* RTCAudioTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCAudioTrack.h; path = WebRTC.framework/Headers/RTCAudioTrack.h; sourceTree = "<group>"; };
+		43AE9496374BA927F7A503D583FA6ECA /* RTCPeerConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCPeerConnection.h; path = WebRTC.framework/Headers/RTCPeerConnection.h; sourceTree = "<group>"; };
+		45383ED10DCF08C5B8A3FB9C144A0C99 /* RTCVideoDecoderVP9.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoDecoderVP9.h; path = WebRTC.framework/Headers/RTCVideoDecoderVP9.h; sourceTree = "<group>"; };
+		49F0C79CD64C126726ADF2864BCA3F75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F9FF76CB80D4CE33C986CD1A1BBA5A8 /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlamofireImage.framework; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50DFBB1EC6EDB951D7164D3B82ED2A18 /* Pods-Qiscus_VideoCall_IOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Qiscus_VideoCall_IOS-dummy.m"; sourceTree = "<group>"; };
+		570E2DFF064CBBA9B1A981CF071ABBC4 /* Pods-Qiscus_VideoCall_IOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Qiscus_VideoCall_IOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		58A8C0C464A43F4677863F401B211104 /* RTCVideoEncoderVP9.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoEncoderVP9.h; path = WebRTC.framework/Headers/RTCVideoEncoderVP9.h; sourceTree = "<group>"; };
+		59CE63ABA838EF03D0FA8C443A12A81E /* Request+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Request+AlamofireImage.swift"; path = "Source/Request+AlamofireImage.swift"; sourceTree = "<group>"; };
+		5A8B1D72AD5147AC31343972A52BCCFE /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		5B2D6BD561A5B5A261534379CD45386C /* CallSignalPayload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallSignalPayload.swift; path = QiscusRTC/Signal/CallSignalPayload.swift; sourceTree = "<group>"; };
+		5E2767A99B79CC62F488B47312AAAB98 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		5E542349E4098377F5E85B8325102005 /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Sources/SSLSecurity.swift; sourceTree = "<group>"; };
+		5E9DC5397B78E1E3ACD73144398ACDC6 /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Starscream.modulemap; sourceTree = "<group>"; };
+		5EB3EABE3F071275600F8B39A5A7E782 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		5ED9B75B977B1DA3CA5C7D0B248BA12A /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F01024498EC05AB0CBD6C0721EE4A7E /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		5F2247F499A2A2A6F8B42DDDED4C31C2 /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
+		5F810010D2DC3463766A0D5A2A524481 /* SoundManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SoundManager.swift; path = QiscusRTC/Managers/SoundManager.swift; sourceTree = "<group>"; };
+		66482EB8DC3F671A5D9D2C3C42748D10 /* RTCVideoRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoRenderer.h; path = WebRTC.framework/Headers/RTCVideoRenderer.h; sourceTree = "<group>"; };
+		66496299627E7A03A304127237CF0178 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67ED53C3A6FE25BD523CB08AB3E3EC7E /* RTCVideoDecoderVP8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoDecoderVP8.h; path = WebRTC.framework/Headers/RTCVideoDecoderVP8.h; sourceTree = "<group>"; };
+		68C2F4F142C5021B3DF4D9FAA062D3C2 /* RTCDataChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCDataChannel.h; path = WebRTC.framework/Headers/RTCDataChannel.h; sourceTree = "<group>"; };
+		6911AC912AE10FD8670329E9C6A9A2F6 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		69186DC4E94F0B57A5A0A480BD53287C /* RTCCameraVideoCapturer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCCameraVideoCapturer.h; path = WebRTC.framework/Headers/RTCCameraVideoCapturer.h; sourceTree = "<group>"; };
+		6B6077DD36F5050C9D6D90C1774C5B0C /* RTCAudioSessionConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCAudioSessionConfiguration.h; path = WebRTC.framework/Headers/RTCAudioSessionConfiguration.h; sourceTree = "<group>"; };
+		6EA4044D806C12F6C93350652333E496 /* RTCMediaSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMediaSource.h; path = WebRTC.framework/Headers/RTCMediaSource.h; sourceTree = "<group>"; };
+		6F23CEBB98891FEBF8244B8A0547AEEE /* AlamofireImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireImage-prefix.pch"; sourceTree = "<group>"; };
+		711EE2176E44C1765E383DE3E27EE9C0 /* RTCSessionDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCSessionDescription.h; path = WebRTC.framework/Headers/RTCSessionDescription.h; sourceTree = "<group>"; };
+		717CC5E58E4480F43E70DB6C8179C004 /* Systemconfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Systemconfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Systemconfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		71B76F617B79885BEF0F71B7037D2E2D /* AFIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFIError.swift; path = Source/AFIError.swift; sourceTree = "<group>"; };
+		741FF9C7E504C77DBB5CC6C81789FB28 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		746D24140957849EE03DA897027961E2 /* CallUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallUI.swift; path = QiscusRTC/Controllers/CallUI.swift; sourceTree = "<group>"; };
+		756FBD77192BF3139F23351BCB625E54 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		7577FF9667E3D15604653BF0A9D6B7EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75B7FCEB9D9F360C4526217D8E7EC3DC /* CallUIPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallUIPresenter.swift; path = QiscusRTC/Controllers/CallUIPresenter.swift; sourceTree = "<group>"; };
+		75B97BE56641186CE028237D49476DE0 /* RTCVideoCapturer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoCapturer.h; path = WebRTC.framework/Headers/RTCVideoCapturer.h; sourceTree = "<group>"; };
+		771C728538590415FD0AF48E6BDC00B2 /* RTCIntervalRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCIntervalRange.h; path = WebRTC.framework/Headers/RTCIntervalRange.h; sourceTree = "<group>"; };
+		77ACD6705694CCEEF90248374D823E29 /* VideoCallUI.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = VideoCallUI.xib; path = QiscusRTC/Controllers/VideoCallUI.xib; sourceTree = "<group>"; };
+		7818D6E03E9229CD7C1CB04F10C2668E /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		783172B4696F4B2878B9641B768451BA /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
+		7BF34F154684CF771DE6BE6CFC45F30A /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		7C113A0499DF1CB2A855B4F4FBA710B0 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		7CA090F8A22A0130B7B1FA5A11019FE2 /* CallEnggine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallEnggine.swift; path = QiscusRTC/Enggine/CallEnggine.swift; sourceTree = "<group>"; };
+		7E4D70D9EB671AD915D4F369EAF713B8 /* AlamofireImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlamofireImage-dummy.m"; sourceTree = "<group>"; };
+		7EC30A26FDE0FA6A5FEF6440E21EC39F /* QiscusRTC.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = QiscusRTC.bundle; path = QiscusRTC.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8090D32CC570E5FEA9E94D45A4F84BDF /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		88A1F53CBCCBB99D57DA378DAA64C58D /* AlamofireImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlamofireImage.xcconfig; sourceTree = "<group>"; };
+		89EA2B3BDD35AE78F99CE9DC149AD94B /* CallCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallCenter.swift; path = QiscusRTC/Managers/CallCenter.swift; sourceTree = "<group>"; };
+		8A3B9B8E2072077BE9DD5C5F0E220713 /* RTCMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMacros.h; path = WebRTC.framework/Headers/RTCMacros.h; sourceTree = "<group>"; };
+		8C0F82A5F651BA4603B78641D8F62A1F /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		8C44936A8DB641D08476D9F5352B5D6A /* VideoCallUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoCallUI.swift; path = QiscusRTC/Controllers/VideoCallUI.swift; sourceTree = "<group>"; };
+		8D649801F55AD6A5AA5C45CB76D0BED6 /* RTCVideoViewShading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoViewShading.h; path = WebRTC.framework/Headers/RTCVideoViewShading.h; sourceTree = "<group>"; };
+		8FCCF56DEA2F6ACF2E1561DD75CCA56F /* RTCCameraPreviewView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCCameraPreviewView.h; path = WebRTC.framework/Headers/RTCCameraPreviewView.h; sourceTree = "<group>"; };
+		9308BD6F4119646E8B11EA17E4C70855 /* AlamofireImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireImage-umbrella.h"; sourceTree = "<group>"; };
+		932CA3EE79CB4E6FA491D30D7ADDB39A /* RTCMetrics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMetrics.h; path = WebRTC.framework/Headers/RTCMetrics.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97C52F73E3840B832E95ECCAC5E9BACA /* AlamofireImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AlamofireImage.modulemap; sourceTree = "<group>"; };
+		9862C1E88C7FC0BC23C022D3E5EA8F41 /* RTCVideoFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoFrame.h; path = WebRTC.framework/Headers/RTCVideoFrame.h; sourceTree = "<group>"; };
+		9899ED8339FBC579A48DAC58C45F4989 /* ApiCallEndpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApiCallEndpoint.swift; path = QiscusRTC/Service/ApiCallEndpoint.swift; sourceTree = "<group>"; };
+		9CBDE43D4E81BADE71AE8284A066AF7D /* QiscusRTC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QiscusRTC.framework; path = QiscusRTC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D658DE8982642CD13C1011FEEACE4F6 /* Pods-Qiscus_VideoCall_IOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Qiscus_VideoCall_IOS-frameworks.sh"; sourceTree = "<group>"; };
+		9F9BBEFFF68D453B43BEB906DBF4776F /* RTCMetricsSampleInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMetricsSampleInfo.h; path = WebRTC.framework/Headers/RTCMetricsSampleInfo.h; sourceTree = "<group>"; };
+		A0A7BF95ACA83103290077A6B2006F3F /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B466A05C12C4E0074C97275BB724AC /* QiscusRTC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QiscusRTC-dummy.m"; sourceTree = "<group>"; };
+		A33D5360628DFB7741B35E0A7F97660A /* UIImage+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+AlamofireImage.swift"; path = "Source/UIImage+AlamofireImage.swift"; sourceTree = "<group>"; };
+		A363BA2C1F1F484E3A99DC394A012484 /* Call.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Call.swift; path = QiscusRTC/Models/Call.swift; sourceTree = "<group>"; };
+		A48CFF9C2E7392A06E60F0EAD25A9BF0 /* QiscusRTC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QiscusRTC.modulemap; sourceTree = "<group>"; };
+		A534FF84CFB35DCAEF98AB7AFDCC6A27 /* Pods_Qiscus_VideoCall_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Qiscus_VideoCall_IOS.framework; path = "Pods-Qiscus_VideoCall_IOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A604F218259509D18DB0CCAC21A99175 /* RTCFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCFileLogger.h; path = WebRTC.framework/Headers/RTCFileLogger.h; sourceTree = "<group>"; };
+		A6CE47D9929C891966C99AF06502F729 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/VideoToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		AAB15E96F0C27E18733146816A5CD557 /* RTCMediaStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMediaStream.h; path = WebRTC.framework/Headers/RTCMediaStream.h; sourceTree = "<group>"; };
+		AC13C067FFA44ABB56FE63B0D153F3D9 /* ResourceBundle-QiscusRTC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-QiscusRTC-Info.plist"; sourceTree = "<group>"; };
+		AC240CB0B0C2817E1ECFC6CF80CF3A43 /* Pods-Qiscus_VideoCall_IOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Qiscus_VideoCall_IOS.modulemap"; sourceTree = "<group>"; };
+		ADCD8EDDF4B6E78080707646B1F18DB9 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
+		ADF302D02E08748DBFD5CA7533E89DB2 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		AEBFF9EA5D2BA5F3AF78C9B759AB2532 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		AF1AD743F85556BCAF1699D9101ABF9D /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		AFDCFB20CA733197A0442726D51D3C7C /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		B32BE7A6872F80CC82418A49E4B3C75D /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
+		B817F33F43053404AF47D6C31AA5EEB7 /* RTCRtpCodecParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCRtpCodecParameters.h; path = WebRTC.framework/Headers/RTCRtpCodecParameters.h; sourceTree = "<group>"; };
+		B87AAD7421955505A8A2EA3DBBF91BDE /* RTCVideoSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoSource.h; path = WebRTC.framework/Headers/RTCVideoSource.h; sourceTree = "<group>"; };
+		B9207B52B80B2C97A078E604FB16C63B /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BA5D3D27070456CF3ACBF39814BAA1 /* RTCMTLVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMTLVideoView.h; path = WebRTC.framework/Headers/RTCMTLVideoView.h; sourceTree = "<group>"; };
+		C015E3A906559FC0A0E8371BEF8CBFE8 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		C16B50D689409CA467FAB236C4B021BE /* QiscusCallClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QiscusCallClient.swift; path = QiscusRTC/QiscusCallClient.swift; sourceTree = "<group>"; };
+		C1D74E3612A0FC55D08AD53FAB05CF85 /* QiscusRTC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QiscusRTC.xcconfig; sourceTree = "<group>"; };
+		C35E03EAFBEDDA1659ACFF466E6D1158 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = QiscusRTC/Assets.xcassets; sourceTree = "<group>"; };
+		C3FA4784A4110F1F7DB7DE4CA9AFE778 /* RTCVideoFrameBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoFrameBuffer.h; path = WebRTC.framework/Headers/RTCVideoFrameBuffer.h; sourceTree = "<group>"; };
+		C86E50CDC91AA5D60108F11EBFB5EC60 /* RTCFieldTrials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCFieldTrials.h; path = WebRTC.framework/Headers/RTCFieldTrials.h; sourceTree = "<group>"; };
+		CA6C43E069951D84F67ADFA45BC496FE /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		CA71770583ABCF94A71B89A2A5713692 /* RTCSSLAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCSSLAdapter.h; path = WebRTC.framework/Headers/RTCSSLAdapter.h; sourceTree = "<group>"; };
+		CAF3555F954458C526F2DF8EE47ECBBA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4AD21B264902753277A2007A2E8BCA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE5C1A32D25A67A272FB78401F213919 /* ImageFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFilter.swift; path = Source/ImageFilter.swift; sourceTree = "<group>"; };
+		CE6BADC876CC3FB7B4BFF60FC8FAAFE4 /* UIButton+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+AlamofireImage.swift"; path = "Source/UIButton+AlamofireImage.swift"; sourceTree = "<group>"; };
+		CF0167C16A3B4D05E58D2409B8603039 /* RTCIceCandidate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCIceCandidate.h; path = WebRTC.framework/Headers/RTCIceCandidate.h; sourceTree = "<group>"; };
+		CFAB27C713F27DFEA3768C608E850BB3 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2269A9AA7BE6FE13E132AA3E5299FBB /* Pods-Qiscus_VideoCall_IOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Qiscus_VideoCall_IOS-resources.sh"; sourceTree = "<group>"; };
+		D276DD85173F7F48ADDFCC07CBCF3CCC /* RTCLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCLogging.h; path = WebRTC.framework/Headers/RTCLogging.h; sourceTree = "<group>"; };
+		D2D51D9D3916DA383FB0E5E833F24A28 /* CallSignal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallSignal.swift; path = QiscusRTC/Signal/CallSignal.swift; sourceTree = "<group>"; };
+		D3531D509A22FFDB6E91314582147A92 /* RTCEAGLVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCEAGLVideoView.h; path = WebRTC.framework/Headers/RTCEAGLVideoView.h; sourceTree = "<group>"; };
+		D56F7941B6D64A5888F7D576D055009A /* UIDevice+RTCDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+RTCDevice.h"; path = "WebRTC.framework/Headers/UIDevice+RTCDevice.h"; sourceTree = "<group>"; };
+		D615542ED30BAE7C708A3AE08FC1EE90 /* RTCRtpEncodingParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCRtpEncodingParameters.h; path = WebRTC.framework/Headers/RTCRtpEncodingParameters.h; sourceTree = "<group>"; };
+		D66822FF0D1F6C2B57945C09BE5BD4E1 /* Pods-Qiscus_VideoCall_IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Qiscus_VideoCall_IOS.release.xcconfig"; sourceTree = "<group>"; };
+		D6EED3111EAAEAAE3A7887A3C4B35644 /* ApiCall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApiCall.swift; path = QiscusRTC/Service/ApiCall.swift; sourceTree = "<group>"; };
+		D760EBB4D17A49727EC4B4C88706C04F /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		D8ACA9B21D011BC8CAFC5C63032EF643 /* RTCAudioSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCAudioSource.h; path = WebRTC.framework/Headers/RTCAudioSource.h; sourceTree = "<group>"; };
+		E3CDCA450284206EFB1F64216E4DE2A5 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E91B25BDD6DF9056C4AA42A3A0D0F8 /* RTCPeerConnectionFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCPeerConnectionFactory.h; path = WebRTC.framework/Headers/RTCPeerConnectionFactory.h; sourceTree = "<group>"; };
+		E617CC97EEAAE3308A721EAED392BAFD /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		E7ACBE66EE9E9C5E9C137356B9CAFF7A /* QiscusRTC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QiscusRTC.h; path = QiscusRTC/QiscusRTC.h; sourceTree = "<group>"; };
+		EE0C403F733ED79F8D7EBFF7ED940BE4 /* CallManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallManager.swift; path = QiscusRTC/Managers/CallManager.swift; sourceTree = "<group>"; };
+		EE111B711B3CAD2788145D24FB5E0243 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		EF6BD157A6671DDA9DAB8FEFF607BD37 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		F131405B56879E1C75C88B7A99A5FFDF /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Source/ImageDownloader.swift; sourceTree = "<group>"; };
+		F38EB3FC0DD98AAAAC094412C6591F1B /* QiscusRTC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QiscusRTC.swift; path = QiscusRTC/QiscusRTC.swift; sourceTree = "<group>"; };
+		F39A14C1DE748D4834D8C5D7408554A1 /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Compression.swift; sourceTree = "<group>"; };
+		F39CC062EEEDF7F25190532FD8CCF65A /* QiscusRTC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QiscusRTC-prefix.pch"; sourceTree = "<group>"; };
+		F434EF7FC7026934CE81A8BFDFCB5862 /* reconnecting.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; name = reconnecting.mp3; path = QiscusRTC/Tone/reconnecting.mp3; sourceTree = "<group>"; };
+		F4673416D396D3DB69CDCD7A38A55CAC /* Starscream.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.xcconfig; sourceTree = "<group>"; };
+		F97C03C4CF6E238694124A20BD073289 /* RTCDataChannelConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCDataChannelConfiguration.h; path = WebRTC.framework/Headers/RTCDataChannelConfiguration.h; sourceTree = "<group>"; };
+		FBDBA9D3A931CE82B1CA1E908BB8D203 /* Pods-Qiscus_VideoCall_IOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Qiscus_VideoCall_IOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FCCE3809ACBA8CB50600C39043437955 /* RTCMediaStreamTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMediaStreamTrack.h; path = WebRTC.framework/Headers/RTCMediaStreamTrack.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11223EB754822F95A80ED689233AA116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADFAB1293BFA8D1383CE73071533116 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62473517CD3EBBAA442840DB3535594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059970D2F001E70D2A9E351AEB59E069 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DE22719DCC1EF846D7F217F2140B34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF98FBBDC964E0CC738F6B323B4C1BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613167D898FF421A6F75D1FE5D145B9B /* Alamofire.framework in Frameworks */,
+				26479B07464784F3BF8C0853CA049976 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFE3D39A3CB64AB74C3CE414D48514C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A45617E0FB01E3B9E6F08E8EF720784 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8FE7DCD00EBE49B46DAB3D5641ACD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7BE3B01E737FBBE326380BD052946A /* Alamofire.framework in Frameworks */,
+				757223161E698D495339F43AA5323B96 /* AlamofireImage.framework in Frameworks */,
+				4B07642319B5724BC61C2D4D789979F3 /* AudioToolbox.framework in Frameworks */,
+				6B501CBEB1206E75E708178A889AD775 /* AVFoundation.framework in Frameworks */,
+				CE43EA500C9BEB4ECC0FABD98D941E19 /* CoreMedia.framework in Frameworks */,
+				3E7F8BE4A5AAA867077602464CDADEE8 /* CoreMotion.framework in Frameworks */,
+				5E8B8CC4950C6999BE8FDA2066F7125B /* CoreTelephony.framework in Frameworks */,
+				60B71025B18997E4B81F5F7F5A2E2B0D /* Foundation.framework in Frameworks */,
+				2CD94572E77F521B1CA058F82B31E6E1 /* Starscream.framework in Frameworks */,
+				9A58DF546EFA3FA856470EE7FAEBC386 /* SwiftyJSON.framework in Frameworks */,
+				5310487C9DD1869291835D53BFCBEEEE /* Systemconfiguration.framework in Frameworks */,
+				03C104E5372D10A1D5C5B22DBD173C13 /* UIKit.framework in Frameworks */,
+				A0B65B0BA7DE2CEBEDBDE94FF841EA2C /* VideoToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09989DB18DBA138143E2B8D1C3378989 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95E5A94D45766B81F749C85212555C27 /* Alamofire */,
+				60DD9E13C04F7422FC47F1BEAEF18BA8 /* AlamofireImage */,
+				881FC43D2EF839AC61B9B482664B8E03 /* QiscusRTC */,
+				57317B8731B53EFC9CBD7850E3057EDF /* Starscream */,
+				9F29970941145F491156B07AE52765E5 /* SwiftyJSON */,
+				993D3E1D7070C519F514E35BBE8BDBE2 /* WebRTC */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2332F4485EB320D513DB332CBF6E96C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C35E03EAFBEDDA1659ACFF466E6D1158 /* Assets.xcassets */,
+				1CF74A696A0E26F139019A4BAA9D3E41 /* dialing.mp3 */,
+				1F13DDD80E8E5C96D062E13881D0E173 /* incoming.mp3 */,
+				F434EF7FC7026934CE81A8BFDFCB5862 /* reconnecting.mp3 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		36D2FE3EC3B4956CFD6FEE4AD71843F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1763D30CE9880A900111F84A762F53A4 /* Alamofire.framework */,
+				4F9FF76CB80D4CE33C986CD1A1BBA5A8 /* AlamofireImage.framework */,
+				A534FF84CFB35DCAEF98AB7AFDCC6A27 /* Pods_Qiscus_VideoCall_IOS.framework */,
+				7EC30A26FDE0FA6A5FEF6440E21EC39F /* QiscusRTC.bundle */,
+				9CBDE43D4E81BADE71AE8284A066AF7D /* QiscusRTC.framework */,
+				5ED9B75B977B1DA3CA5C7D0B248BA12A /* Starscream.framework */,
+				A0A7BF95ACA83103290077A6B2006F3F /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C8F247C19251E283F668AB3550D9721 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66496299627E7A03A304127237CF0178 /* Info.plist */,
+				A48CFF9C2E7392A06E60F0EAD25A9BF0 /* QiscusRTC.modulemap */,
+				C1D74E3612A0FC55D08AD53FAB05CF85 /* QiscusRTC.xcconfig */,
+				A0B466A05C12C4E0074C97275BB724AC /* QiscusRTC-dummy.m */,
+				F39CC062EEEDF7F25190532FD8CCF65A /* QiscusRTC-prefix.pch */,
+				11B245D5320168E3D8732ADDA73705D7 /* QiscusRTC-umbrella.h */,
+				AC13C067FFA44ABB56FE63B0D153F3D9 /* ResourceBundle-QiscusRTC-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QiscusRTC";
+			sourceTree = "<group>";
+		};
+		57317B8731B53EFC9CBD7850E3057EDF /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				F39A14C1DE748D4834D8C5D7408554A1 /* Compression.swift */,
+				5E542349E4098377F5E85B8325102005 /* SSLSecurity.swift */,
+				06E61F6577E95EF8758AC01BA28EB7D0 /* WebSocket.swift */,
+				5ECE8917F1234C559CE8EF54138BE322 /* Support Files */,
+			);
+			name = Starscream;
+			path = Starscream;
+			sourceTree = "<group>";
+		};
+		5ECE8917F1234C559CE8EF54138BE322 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				067436BD2A2C258AAFA6AEA0F8A58168 /* Info.plist */,
+				5E9DC5397B78E1E3ACD73144398ACDC6 /* Starscream.modulemap */,
+				F4673416D396D3DB69CDCD7A38A55CAC /* Starscream.xcconfig */,
+				5F2247F499A2A2A6F8B42DDDED4C31C2 /* Starscream-dummy.m */,
+				ADCD8EDDF4B6E78080707646B1F18DB9 /* Starscream-prefix.pch */,
+				783172B4696F4B2878B9641B768451BA /* Starscream-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream";
+			sourceTree = "<group>";
+		};
+		5EDDFB7910AA82CC296E51C6DC64F0AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF1AD743F85556BCAF1699D9101ABF9D /* Alamofire.modulemap */,
+				D760EBB4D17A49727EC4B4C88706C04F /* Alamofire.xcconfig */,
+				7818D6E03E9229CD7C1CB04F10C2668E /* Alamofire-dummy.m */,
+				EF6BD157A6671DDA9DAB8FEFF607BD37 /* Alamofire-prefix.pch */,
+				1044BEA7EBE6CE6A0EF97CD56A279C80 /* Alamofire-umbrella.h */,
+				49F0C79CD64C126726ADF2864BCA3F75 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		60DD9E13C04F7422FC47F1BEAEF18BA8 /* AlamofireImage */ = {
+			isa = PBXGroup;
+			children = (
+				71B76F617B79885BEF0F71B7037D2E2D /* AFIError.swift */,
+				1BC4548C637CE307B99F5FE0F01583F8 /* Image.swift */,
+				1FFD99C87ADC86E086F18C35258BF8B6 /* ImageCache.swift */,
+				F131405B56879E1C75C88B7A99A5FFDF /* ImageDownloader.swift */,
+				CE5C1A32D25A67A272FB78401F213919 /* ImageFilter.swift */,
+				59CE63ABA838EF03D0FA8C443A12A81E /* Request+AlamofireImage.swift */,
+				CE6BADC876CC3FB7B4BFF60FC8FAAFE4 /* UIButton+AlamofireImage.swift */,
+				A33D5360628DFB7741B35E0A7F97660A /* UIImage+AlamofireImage.swift */,
+				02037E23FAF9670C907F6A725CED7728 /* UIImageView+AlamofireImage.swift */,
+				C695BF0EF68E738DCDC1413B96DB27DD /* Support Files */,
+			);
+			name = AlamofireImage;
+			path = AlamofireImage;
+			sourceTree = "<group>";
+		};
+		63EDC40E9A37186FF8F0D7541C557010 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3EF15A2E62ADC12B26966144DDB4C7BD /* AudioToolbox.framework */,
+				CC4AD21B264902753277A2007A2E8BCA /* AVFoundation.framework */,
+				3C97EFF2B8DB1A686F81B8A48EC888F5 /* CoreMedia.framework */,
+				31FB6ADCB8DA969654CB844B25360CCA /* CoreMotion.framework */,
+				1F18538465ECBD5ACC517CA01ACB6939 /* CoreTelephony.framework */,
+				09FE5053F2C6189823A73D6FCB3060A9 /* Foundation.framework */,
+				717CC5E58E4480F43E70DB6C8179C004 /* Systemconfiguration.framework */,
+				0A41E3E051055AB7A7BB5C0746CC0756 /* UIKit.framework */,
+				A6CE47D9929C891966C99AF06502F729 /* VideoToolbox.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		792BDADADB1E05C62051AD6C5F528182 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3CDCA450284206EFB1F64216E4DE2A5 /* Alamofire.framework */,
+				B9207B52B80B2C97A078E604FB16C63B /* AlamofireImage.framework */,
+				171D337A2A0A4294511B1DCCF4759D51 /* Starscream.framework */,
+				CFAB27C713F27DFEA3768C608E850BB3 /* SwiftyJSON.framework */,
+				63EDC40E9A37186FF8F0D7541C557010 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				792BDADADB1E05C62051AD6C5F528182 /* Frameworks */,
+				09989DB18DBA138143E2B8D1C3378989 /* Pods */,
+				36D2FE3EC3B4956CFD6FEE4AD71843F6 /* Products */,
+				BB1435B44BCD457C5C52D1403545C036 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		881FC43D2EF839AC61B9B482664B8E03 /* QiscusRTC */ = {
+			isa = PBXGroup;
+			children = (
+				D6EED3111EAAEAAE3A7887A3C4B35644 /* ApiCall.swift */,
+				9899ED8339FBC579A48DAC58C45F4989 /* ApiCallEndpoint.swift */,
+				A363BA2C1F1F484E3A99DC394A012484 /* Call.swift */,
+				89EA2B3BDD35AE78F99CE9DC149AD94B /* CallCenter.swift */,
+				7CA090F8A22A0130B7B1FA5A11019FE2 /* CallEnggine.swift */,
+				EE0C403F733ED79F8D7EBFF7ED940BE4 /* CallManager.swift */,
+				D2D51D9D3916DA383FB0E5E833F24A28 /* CallSignal.swift */,
+				5B2D6BD561A5B5A261534379CD45386C /* CallSignalPayload.swift */,
+				746D24140957849EE03DA897027961E2 /* CallUI.swift */,
+				0BC36375807401DDB0F3D496DBDA9A9D /* CallUI.xib */,
+				75B7FCEB9D9F360C4526217D8E7EC3DC /* CallUIPresenter.swift */,
+				04EE948D407788386869CBCCEEB2AD85 /* CallUser.swift */,
+				C16B50D689409CA467FAB236C4B021BE /* QiscusCallClient.swift */,
+				E7ACBE66EE9E9C5E9C137356B9CAFF7A /* QiscusRTC.h */,
+				F38EB3FC0DD98AAAAC094412C6591F1B /* QiscusRTC.swift */,
+				5F810010D2DC3463766A0D5A2A524481 /* SoundManager.swift */,
+				8C44936A8DB641D08476D9F5352B5D6A /* VideoCallUI.swift */,
+				77ACD6705694CCEEF90248374D823E29 /* VideoCallUI.xib */,
+				2332F4485EB320D513DB332CBF6E96C7 /* Resources */,
+				3C8F247C19251E283F668AB3550D9721 /* Support Files */,
+			);
+			name = QiscusRTC;
+			path = QiscusRTC;
+			sourceTree = "<group>";
+		};
+		95E5A94D45766B81F749C85212555C27 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				AEBFF9EA5D2BA5F3AF78C9B759AB2532 /* AFError.swift */,
+				C015E3A906559FC0A0E8371BEF8CBFE8 /* Alamofire.swift */,
+				5F01024498EC05AB0CBD6C0721EE4A7E /* DispatchQueue+Alamofire.swift */,
+				756FBD77192BF3139F23351BCB625E54 /* MultipartFormData.swift */,
+				ADF302D02E08748DBFD5CA7533E89DB2 /* NetworkReachabilityManager.swift */,
+				5E2767A99B79CC62F488B47312AAAB98 /* Notifications.swift */,
+				741FF9C7E504C77DBB5CC6C81789FB28 /* ParameterEncoding.swift */,
+				8090D32CC570E5FEA9E94D45A4F84BDF /* Request.swift */,
+				5A8B1D72AD5147AC31343972A52BCCFE /* Response.swift */,
+				E617CC97EEAAE3308A721EAED392BAFD /* ResponseSerialization.swift */,
+				AFDCFB20CA733197A0442726D51D3C7C /* Result.swift */,
+				6911AC912AE10FD8670329E9C6A9A2F6 /* ServerTrustPolicy.swift */,
+				8C0F82A5F651BA4603B78641D8F62A1F /* SessionDelegate.swift */,
+				7BF34F154684CF771DE6BE6CFC45F30A /* SessionManager.swift */,
+				5EB3EABE3F071275600F8B39A5A7E782 /* TaskDelegate.swift */,
+				3DF6528CE4AB8E2865B6A8000103A068 /* Timeline.swift */,
+				3AC6D6CF428D3A13FE19841E21CCF9F3 /* Validation.swift */,
+				5EDDFB7910AA82CC296E51C6DC64F0AE /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		993D3E1D7070C519F514E35BBE8BDBE2 /* WebRTC */ = {
+			isa = PBXGroup;
+			children = (
+				3B5937F95D01DCC6DBFBD359860AFF2A /* RTCAudioSession.h */,
+				6B6077DD36F5050C9D6D90C1774C5B0C /* RTCAudioSessionConfiguration.h */,
+				D8ACA9B21D011BC8CAFC5C63032EF643 /* RTCAudioSource.h */,
+				437A31C64F5BB61FEB4BA4A74B5D1DBE /* RTCAudioTrack.h */,
+				03DA9AD0A436CAFA8A41008B4CB44CBC /* RTCAVFoundationVideoSource.h */,
+				8FCCF56DEA2F6ACF2E1561DD75CCA56F /* RTCCameraPreviewView.h */,
+				69186DC4E94F0B57A5A0A480BD53287C /* RTCCameraVideoCapturer.h */,
+				3EDB7B2D9B03AD5FB1374A3B9B1C26C0 /* RTCConfiguration.h */,
+				68C2F4F142C5021B3DF4D9FAA062D3C2 /* RTCDataChannel.h */,
+				F97C03C4CF6E238694124A20BD073289 /* RTCDataChannelConfiguration.h */,
+				2E4AA494173C4AC8A7AF9B57C2EE858A /* RTCDispatcher.h */,
+				D3531D509A22FFDB6E91314582147A92 /* RTCEAGLVideoView.h */,
+				C86E50CDC91AA5D60108F11EBFB5EC60 /* RTCFieldTrials.h */,
+				A604F218259509D18DB0CCAC21A99175 /* RTCFileLogger.h */,
+				CF0167C16A3B4D05E58D2409B8603039 /* RTCIceCandidate.h */,
+				28E44206B4E3BFF696B348C074CED11D /* RTCIceServer.h */,
+				771C728538590415FD0AF48E6BDC00B2 /* RTCIntervalRange.h */,
+				2ADC940DBDA3DCB92EB70CECD952763C /* RTCLegacyStatsReport.h */,
+				D276DD85173F7F48ADDFCC07CBCF3CCC /* RTCLogging.h */,
+				8A3B9B8E2072077BE9DD5C5F0E220713 /* RTCMacros.h */,
+				366B0E732C02A50A0392A083DA657719 /* RTCMediaConstraints.h */,
+				6EA4044D806C12F6C93350652333E496 /* RTCMediaSource.h */,
+				AAB15E96F0C27E18733146816A5CD557 /* RTCMediaStream.h */,
+				FCCE3809ACBA8CB50600C39043437955 /* RTCMediaStreamTrack.h */,
+				932CA3EE79CB4E6FA491D30D7ADDB39A /* RTCMetrics.h */,
+				9F9BBEFFF68D453B43BEB906DBF4776F /* RTCMetricsSampleInfo.h */,
+				B9BA5D3D27070456CF3ACBF39814BAA1 /* RTCMTLVideoView.h */,
+				43AE9496374BA927F7A503D583FA6ECA /* RTCPeerConnection.h */,
+				E3E91B25BDD6DF9056C4AA42A3A0D0F8 /* RTCPeerConnectionFactory.h */,
+				B817F33F43053404AF47D6C31AA5EEB7 /* RTCRtpCodecParameters.h */,
+				D615542ED30BAE7C708A3AE08FC1EE90 /* RTCRtpEncodingParameters.h */,
+				186A57C5F6A47EDA0B9BE0694132F080 /* RTCRtpParameters.h */,
+				247D9F97CBAD395EF7C2489574A871D8 /* RTCRtpReceiver.h */,
+				3E5CFA46F8F407E1F9BA01F3FAB793E5 /* RTCRtpSender.h */,
+				711EE2176E44C1765E383DE3E27EE9C0 /* RTCSessionDescription.h */,
+				CA71770583ABCF94A71B89A2A5713692 /* RTCSSLAdapter.h */,
+				27BB5AC72C235A2DC81286B492E73C13 /* RTCTracing.h */,
+				75B97BE56641186CE028237D49476DE0 /* RTCVideoCapturer.h */,
+				0AC8424969AA1F72AAB433AE201FC146 /* RTCVideoCodec.h */,
+				3DA5B41D6D45C3F8DE1BC4D3E23A8EC2 /* RTCVideoCodecFactory.h */,
+				180A627A368D804B9EFC2B612FF8A7C3 /* RTCVideoCodecH264.h */,
+				67ED53C3A6FE25BD523CB08AB3E3EC7E /* RTCVideoDecoderVP8.h */,
+				45383ED10DCF08C5B8A3FB9C144A0C99 /* RTCVideoDecoderVP9.h */,
+				334DE1B311E395FDB434B051A69A8A7D /* RTCVideoEncoderVP8.h */,
+				58A8C0C464A43F4677863F401B211104 /* RTCVideoEncoderVP9.h */,
+				9862C1E88C7FC0BC23C022D3E5EA8F41 /* RTCVideoFrame.h */,
+				C3FA4784A4110F1F7DB7DE4CA9AFE778 /* RTCVideoFrameBuffer.h */,
+				66482EB8DC3F671A5D9D2C3C42748D10 /* RTCVideoRenderer.h */,
+				B87AAD7421955505A8A2EA3DBBF91BDE /* RTCVideoSource.h */,
+				415E50E3AEEF48EEC11C6697C4A869A0 /* RTCVideoTrack.h */,
+				8D649801F55AD6A5AA5C45CB76D0BED6 /* RTCVideoViewShading.h */,
+				D56F7941B6D64A5888F7D576D055009A /* UIDevice+RTCDevice.h */,
+				3CF74267B2EBCC028ECEDFF515ACC96F /* WebRTC.h */,
+				9E743C0E20DF858FA8215B3A0F80C9DB /* Frameworks */,
+			);
+			name = WebRTC;
+			path = WebRTC;
+			sourceTree = "<group>";
+		};
+		9E743C0E20DF858FA8215B3A0F80C9DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B32BE7A6872F80CC82418A49E4B3C75D /* WebRTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F29970941145F491156B07AE52765E5 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				3D70BE2D55216F7B23184E7A4936D3EF /* SwiftyJSON.swift */,
+				F85835C4C32513F321F23D2809587373 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		BB1435B44BCD457C5C52D1403545C036 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9C163D78AD96C17AFA334731A33F0C4 /* Pods-Qiscus_VideoCall_IOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C695BF0EF68E738DCDC1413B96DB27DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97C52F73E3840B832E95ECCAC5E9BACA /* AlamofireImage.modulemap */,
+				88A1F53CBCCBB99D57DA378DAA64C58D /* AlamofireImage.xcconfig */,
+				7E4D70D9EB671AD915D4F369EAF713B8 /* AlamofireImage-dummy.m */,
+				6F23CEBB98891FEBF8244B8A0547AEEE /* AlamofireImage-prefix.pch */,
+				9308BD6F4119646E8B11EA17E4C70855 /* AlamofireImage-umbrella.h */,
+				3292A3CC088AFFAE4023F82A62EAEAFD /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlamofireImage";
+			sourceTree = "<group>";
+		};
+		C9C163D78AD96C17AFA334731A33F0C4 /* Pods-Qiscus_VideoCall_IOS */ = {
+			isa = PBXGroup;
+			children = (
+				CAF3555F954458C526F2DF8EE47ECBBA /* Info.plist */,
+				AC240CB0B0C2817E1ECFC6CF80CF3A43 /* Pods-Qiscus_VideoCall_IOS.modulemap */,
+				FBDBA9D3A931CE82B1CA1E908BB8D203 /* Pods-Qiscus_VideoCall_IOS-acknowledgements.markdown */,
+				570E2DFF064CBBA9B1A981CF071ABBC4 /* Pods-Qiscus_VideoCall_IOS-acknowledgements.plist */,
+				50DFBB1EC6EDB951D7164D3B82ED2A18 /* Pods-Qiscus_VideoCall_IOS-dummy.m */,
+				9D658DE8982642CD13C1011FEEACE4F6 /* Pods-Qiscus_VideoCall_IOS-frameworks.sh */,
+				D2269A9AA7BE6FE13E132AA3E5299FBB /* Pods-Qiscus_VideoCall_IOS-resources.sh */,
+				3FABCA22DEC67585C4EDC8E4E14E85D6 /* Pods-Qiscus_VideoCall_IOS-umbrella.h */,
+				181B0A824940A8CFAEBDFCA92FEFF233 /* Pods-Qiscus_VideoCall_IOS.debug.xcconfig */,
+				D66822FF0D1F6C2B57945C09BE5BD4E1 /* Pods-Qiscus_VideoCall_IOS.release.xcconfig */,
+			);
+			name = "Pods-Qiscus_VideoCall_IOS";
+			path = "Target Support Files/Pods-Qiscus_VideoCall_IOS";
+			sourceTree = "<group>";
+		};
+		F85835C4C32513F321F23D2809587373 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7577FF9667E3D15604653BF0A9D6B7EB /* Info.plist */,
+				26A4C6C12284A52193F4A0784E495A0C /* SwiftyJSON.modulemap */,
+				EE111B711B3CAD2788145D24FB5E0243 /* SwiftyJSON.xcconfig */,
+				7C113A0499DF1CB2A855B4F4FBA710B0 /* SwiftyJSON-dummy.m */,
+				2FD081ACB3C203C120A0FF4B61A76F5F /* SwiftyJSON-prefix.pch */,
+				CA6C43E069951D84F67ADFA45BC496FE /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02131AE470DE4CD32F6752C51FFD9B24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB955BE4B7D250B9FD1F09E6A77B2394 /* Starscream-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40D977ED969CCD4086B0D2ACD78C4A5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73D4642B1BA85256D9908EFAC9B633D2 /* Pods-Qiscus_VideoCall_IOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB0106C24E144EC1EE5F7F39BCAB5A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC1CF4CEC7DD19A7B988D0E190655CA /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB21FD03B7703901958C3CE43325DAE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EDA9ED83F4442303A46839027E152E /* AlamofireImage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F190FD7D6F7CDC3F6A527395D96DBA7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF267B1F1EE7FCCC0DDCC755108E258 /* QiscusRTC-umbrella.h in Headers */,
+				3AA9A76668BE39406258C40B429E5470 /* QiscusRTC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		25412BAEE60DCC6B96F2EFE4DC4C5C67 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE257F58B14076209DF99A1177F67A8 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				F955360CD1D32DE105D4C3084E1D83C0 /* Sources */,
+				DBFE3D39A3CB64AB74C3CE414D48514C /* Frameworks */,
+				DBB0106C24E144EC1EE5F7F39BCAB5A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = A0A7BF95ACA83103290077A6B2006F3F /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5026F5887DC072C23CCB77B2E9281045 /* Pods-Qiscus_VideoCall_IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71D7CAFF90493D9E5C25D59075AE855E /* Build configuration list for PBXNativeTarget "Pods-Qiscus_VideoCall_IOS" */;
+			buildPhases = (
+				BC66E8AA3566DE7A584C5600E4590E9D /* Sources */,
+				11223EB754822F95A80ED689233AA116 /* Frameworks */,
+				40D977ED969CCD4086B0D2ACD78C4A5F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3604310680A397C40A42D52869B57AD /* PBXTargetDependency */,
+				01D286801597AB946C71C814E907158A /* PBXTargetDependency */,
+				BEC7DED2577B887D39D26B401385D515 /* PBXTargetDependency */,
+				0F1C68E9AAC6F4729D0B8247080CFA9D /* PBXTargetDependency */,
+				90566D250FAAE10F7FA1F8F586B05C69 /* PBXTargetDependency */,
+			);
+			name = "Pods-Qiscus_VideoCall_IOS";
+			productName = "Pods-Qiscus_VideoCall_IOS";
+			productReference = A534FF84CFB35DCAEF98AB7AFDCC6A27 /* Pods_Qiscus_VideoCall_IOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		784C8957DF400A1DFC1E707986293646 /* QiscusRTC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61F96D82C9139D38C4116DDAE14D0BB /* Build configuration list for PBXNativeTarget "QiscusRTC" */;
+			buildPhases = (
+				9DCB81BE4634CB880BB6D7EA52902B03 /* Sources */,
+				EA8FE7DCD00EBE49B46DAB3D5641ACD8 /* Frameworks */,
+				9B7F814336EFD9EB37AB59BECEE4F37F /* Resources */,
+				F190FD7D6F7CDC3F6A527395D96DBA7C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0025E397D42FB0771F8982A08641B66C /* PBXTargetDependency */,
+				097CE76300543057E5BAE0FCBD82927D /* PBXTargetDependency */,
+				2202BCE6A278265AAD4E3410F641377A /* PBXTargetDependency */,
+				EF0085BC52D2D3AFD9C3E71B9C6B0752 /* PBXTargetDependency */,
+				DA24851D04555A30B9D5613EF47C0A9A /* PBXTargetDependency */,
+			);
+			name = QiscusRTC;
+			productName = QiscusRTC;
+			productReference = 9CBDE43D4E81BADE71AE8284A066AF7D /* QiscusRTC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 1763D30CE9880A900111F84A762F53A4 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8CC5A580A1186C89C6DB1BA8F8B9B222 /* Starscream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9295D0AFF413F7152C1EF6B1141EA694 /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildPhases = (
+				C1EEB9D3F7A9F233C3574C476EB61A9E /* Sources */,
+				A62473517CD3EBBAA442840DB3535594 /* Frameworks */,
+				02131AE470DE4CD32F6752C51FFD9B24 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starscream;
+			productName = Starscream;
+			productReference = 5ED9B75B977B1DA3CA5C7D0B248BA12A /* Starscream.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9EFE4C70245EE2857D336B8B9FA4E825 /* AlamofireImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F2198AF9DCCF3700AE9DD21E64D480 /* Build configuration list for PBXNativeTarget "AlamofireImage" */;
+			buildPhases = (
+				DB0BE2FBB4DB070AD3C57C41C562C32B /* Sources */,
+				BF98FBBDC964E0CC738F6B323B4C1BB8 /* Frameworks */,
+				EB21FD03B7703901958C3CE43325DAE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8937A2057A0DAADF003B7C65E7CE115D /* PBXTargetDependency */,
+			);
+			name = AlamofireImage;
+			productName = AlamofireImage;
+			productReference = 4F9FF76CB80D4CE33C986CD1A1BBA5A8 /* AlamofireImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD9C1F1EC39DD0B8CB69E70FE1831818 /* QiscusRTC-QiscusRTC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2025F6ADD1747145C1E2F4D216F7891C /* Build configuration list for PBXNativeTarget "QiscusRTC-QiscusRTC" */;
+			buildPhases = (
+				29D59149D3B7E6C7C3ECCD1DFF57EFA7 /* Sources */,
+				B5DE22719DCC1EF846D7F217F2140B34 /* Frameworks */,
+				64D8DE9870FCCF6C58D51B93A268978F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QiscusRTC-QiscusRTC";
+			productName = "QiscusRTC-QiscusRTC";
+			productReference = 7EC30A26FDE0FA6A5FEF6440E21EC39F /* QiscusRTC.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 36D2FE3EC3B4956CFD6FEE4AD71843F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				9EFE4C70245EE2857D336B8B9FA4E825 /* AlamofireImage */,
+				5026F5887DC072C23CCB77B2E9281045 /* Pods-Qiscus_VideoCall_IOS */,
+				784C8957DF400A1DFC1E707986293646 /* QiscusRTC */,
+				FD9C1F1EC39DD0B8CB69E70FE1831818 /* QiscusRTC-QiscusRTC */,
+				8CC5A580A1186C89C6DB1BA8F8B9B222 /* Starscream */,
+				25412BAEE60DCC6B96F2EFE4DC4C5C67 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64D8DE9870FCCF6C58D51B93A268978F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB3959F36B1D0AA8C7AA98421DEE219 /* Assets.xcassets in Resources */,
+				DE6EF976F1CD9AB7AD6A3FC25A0570C3 /* CallUI.xib in Resources */,
+				B25BE9635C10239F9643A2715CB7406F /* dialing.mp3 in Resources */,
+				D2B224E579D540FFEB081747820D79A3 /* incoming.mp3 in Resources */,
+				01C1AD8F290B159D0FB099728B4350F0 /* reconnecting.mp3 in Resources */,
+				A50C58C0756C154D2BE3C9563AA53B80 /* VideoCallUI.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B7F814336EFD9EB37AB59BECEE4F37F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72082FE999ED1C5A8BD667DD19D95AFD /* Assets.xcassets in Resources */,
+				546FFA5E6A19961F41B8A5E1A6DBFAE6 /* QiscusRTC.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29D59149D3B7E6C7C3ECCD1DFF57EFA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DCB81BE4634CB880BB6D7EA52902B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB87153F9A9CFAEE6B125B840BD93AD5 /* ApiCall.swift in Sources */,
+				A5F006D20BDAD0B88B63EB37135BFD62 /* ApiCallEndpoint.swift in Sources */,
+				247AAE39FBC51C67DD3A3C5548BBF549 /* Call.swift in Sources */,
+				A7939F9D78CCF4DBDD5142D32B2AEC20 /* CallCenter.swift in Sources */,
+				70E1F59171092D02A4B36AF54E746081 /* CallEnggine.swift in Sources */,
+				302EA7FE8ABAF8690F782412DB240654 /* CallManager.swift in Sources */,
+				F8CB85E8254E1D43245B8CEC76649244 /* CallSignal.swift in Sources */,
+				B24542DF06730E48FD3295402601E729 /* CallSignalPayload.swift in Sources */,
+				F21AE87286AA57AB22A1A45EE8BB4E5D /* CallUI.swift in Sources */,
+				8E05C08558D951D4C62DAB3C3397A46B /* CallUI.xib in Sources */,
+				28E15340B53568A4CF479CB762E6564D /* CallUIPresenter.swift in Sources */,
+				8F2A7C81D0363C19B256DEBF85AF3750 /* CallUser.swift in Sources */,
+				653C54FB5C9908774703CBE1DD71B88F /* QiscusCallClient.swift in Sources */,
+				89268DBF8ACFEE2D680BA824FAFCDB20 /* QiscusRTC-dummy.m in Sources */,
+				80C3291AB8A07BE66A42545E9E71D7D2 /* QiscusRTC.swift in Sources */,
+				09D8CE50716317B8EEAFA892E13BE8B9 /* SoundManager.swift in Sources */,
+				E86F60B8BA9445AD04365BB083A205BC /* VideoCallUI.swift in Sources */,
+				E89E93FA044CC67A6BCC386985CFD1B8 /* VideoCallUI.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC66E8AA3566DE7A584C5600E4590E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD13DEFF8AB0A0C86F873F352AD8860 /* Pods-Qiscus_VideoCall_IOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1EEB9D3F7A9F233C3574C476EB61A9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3779F1C8E248A25048E219D25FE67573 /* Compression.swift in Sources */,
+				9A4FD168EC0CA1BEB863BA0A4D2D29E4 /* SSLSecurity.swift in Sources */,
+				83207794B4462A3B5EDC7FD0CFEEA758 /* Starscream-dummy.m in Sources */,
+				C230A22BA0BB6A866EE42D356D14ED1F /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0BE2FBB4DB070AD3C57C41C562C32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA0415A1A8A4FFC7403E201F915F9A4 /* AFIError.swift in Sources */,
+				37F951F2BDB75BD682C2999EB7B51A35 /* AlamofireImage-dummy.m in Sources */,
+				E1FF4985892E23B75A3381EFF830DFD5 /* Image.swift in Sources */,
+				D9E544B8CB42DA8DD44838F83610D8E0 /* ImageCache.swift in Sources */,
+				202822E4668C16D115A8F68F3ADF0E0F /* ImageDownloader.swift in Sources */,
+				27996F52CCABBD6D0874B79D1B913598 /* ImageFilter.swift in Sources */,
+				2BD7CFD41DACC439E8C0A527F1643495 /* Request+AlamofireImage.swift in Sources */,
+				C73BF39A4CCC3E450E102C23027F8FF8 /* UIButton+AlamofireImage.swift in Sources */,
+				05006BDD7301FCF2678618DEDCC69B94 /* UIImage+AlamofireImage.swift in Sources */,
+				304C5736AC5D49B526C709397D0CF048 /* UIImageView+AlamofireImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F955360CD1D32DE105D4C3084E1D83C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FC20C72EC313A3257110FCCB4A4C34 /* SwiftyJSON-dummy.m in Sources */,
+				ABC6F9B159173467E0FCA9B2A68E73AF /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0025E397D42FB0771F8982A08641B66C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = 37E579BA6739D98A16DC246DFC42DA40 /* PBXContainerItemProxy */;
+		};
+		01D286801597AB946C71C814E907158A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlamofireImage;
+			target = 9EFE4C70245EE2857D336B8B9FA4E825 /* AlamofireImage */;
+			targetProxy = 08A3EB79DC478EF95CFC58AFFECDA66C /* PBXContainerItemProxy */;
+		};
+		097CE76300543057E5BAE0FCBD82927D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlamofireImage;
+			target = 9EFE4C70245EE2857D336B8B9FA4E825 /* AlamofireImage */;
+			targetProxy = FA958CE07FB318F6BE999F8C4AD70493 /* PBXContainerItemProxy */;
+		};
+		0F1C68E9AAC6F4729D0B8247080CFA9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 8CC5A580A1186C89C6DB1BA8F8B9B222 /* Starscream */;
+			targetProxy = 27DDC3EAF262567F57ADC092BDAA1FE7 /* PBXContainerItemProxy */;
+		};
+		2202BCE6A278265AAD4E3410F641377A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "QiscusRTC-QiscusRTC";
+			target = FD9C1F1EC39DD0B8CB69E70FE1831818 /* QiscusRTC-QiscusRTC */;
+			targetProxy = 95DBEAB9756ECA70D9AFA666FB187B8E /* PBXContainerItemProxy */;
+		};
+		8937A2057A0DAADF003B7C65E7CE115D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = A1758AA696D56310AA192B587162169A /* PBXContainerItemProxy */;
+		};
+		90566D250FAAE10F7FA1F8F586B05C69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 25412BAEE60DCC6B96F2EFE4DC4C5C67 /* SwiftyJSON */;
+			targetProxy = B96654E0AB3D8EEA5272E694D99FD970 /* PBXContainerItemProxy */;
+		};
+		A3604310680A397C40A42D52869B57AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = 7E5CF54DFA0267B9C3EAEF6C1E060F0D /* PBXContainerItemProxy */;
+		};
+		BEC7DED2577B887D39D26B401385D515 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QiscusRTC;
+			target = 784C8957DF400A1DFC1E707986293646 /* QiscusRTC */;
+			targetProxy = D32A5CB58AF35D955C360AC37BDFB864 /* PBXContainerItemProxy */;
+		};
+		DA24851D04555A30B9D5613EF47C0A9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 25412BAEE60DCC6B96F2EFE4DC4C5C67 /* SwiftyJSON */;
+			targetProxy = 29A4E2D8A72B96790DF705C746CC29B6 /* PBXContainerItemProxy */;
+		};
+		EF0085BC52D2D3AFD9C3E71B9C6B0752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 8CC5A580A1186C89C6DB1BA8F8B9B222 /* Starscream */;
+			targetProxy = 802EE3C8CB79392E06DF79B6BB370FE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14D5EB61C01CAB6D6E89AE3B71224E1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88A1F53CBCCBB99D57DA378DAA64C58D /* AlamofireImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/AlamofireImage/AlamofireImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlamofireImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlamofireImage/AlamofireImage.modulemap";
+				PRODUCT_NAME = AlamofireImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		24652079A736FB0FE673DDBF35BC0B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D74E3612A0FC55D08AD53FAB05CF85 /* QiscusRTC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/QiscusRTC/QiscusRTC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QiscusRTC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QiscusRTC/QiscusRTC.modulemap";
+				PRODUCT_NAME = QiscusRTC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		480C1F62C27AD6B051E7E564F2EBDB81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D74E3612A0FC55D08AD53FAB05CF85 /* QiscusRTC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/QiscusRTC/QiscusRTC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QiscusRTC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QiscusRTC/QiscusRTC.modulemap";
+				PRODUCT_NAME = QiscusRTC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		530D686455C8C7E0EC4FA41D137D6E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D74E3612A0FC55D08AD53FAB05CF85 /* QiscusRTC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QiscusRTC";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/QiscusRTC/ResourceBundle-QiscusRTC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = QiscusRTC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5A9DF6F4A9C6269DF47D31D0C814205F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D760EBB4D17A49727EC4B4C88706C04F /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E0ADF70FBF9B1FC0C7EB9F414CA9E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 181B0A824940A8CFAEBDFCA92FEFF233 /* Pods-Qiscus_VideoCall_IOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Qiscus_VideoCall_IOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Qiscus_VideoCall_IOS/Pods-Qiscus_VideoCall_IOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Qiscus_VideoCall_IOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D2164B6D3B608702430B026359297B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D760EBB4D17A49727EC4B4C88706C04F /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C07ED8089F70A31B83996A8910D7F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		81955D36F06AB91E10B08B0A93FB475B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4673416D396D3DB69CDCD7A38A55CAC /* Starscream.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		888629F306EC9E114EE18662CE80C700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D74E3612A0FC55D08AD53FAB05CF85 /* QiscusRTC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QiscusRTC";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/QiscusRTC/ResourceBundle-QiscusRTC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = QiscusRTC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B915F3203C55885143D6BF5D8FD0AE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D66822FF0D1F6C2B57945C09BE5BD4E1 /* Pods-Qiscus_VideoCall_IOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Qiscus_VideoCall_IOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Qiscus_VideoCall_IOS/Pods-Qiscus_VideoCall_IOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Qiscus_VideoCall_IOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE7DA615A79FEB1C66DD6C714C8EC632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4673416D396D3DB69CDCD7A38A55CAC /* Starscream.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DEF2F81BA7C4A460FFD4057EFD9D37CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88A1F53CBCCBB99D57DA378DAA64C58D /* AlamofireImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/AlamofireImage/AlamofireImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlamofireImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlamofireImage/AlamofireImage.modulemap";
+				PRODUCT_NAME = AlamofireImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1E64D46146C952174015F6FBEE5341C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE111B711B3CAD2788145D24FB5E0243 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE188A9897749874A19DA2E585FEBF37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE111B711B3CAD2788145D24FB5E0243 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01F2198AF9DCCF3700AE9DD21E64D480 /* Build configuration list for PBXNativeTarget "AlamofireImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D5EB61C01CAB6D6E89AE3B71224E1C /* Debug */,
+				DEF2F81BA7C4A460FFD4057EFD9D37CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2025F6ADD1747145C1E2F4D216F7891C /* Build configuration list for PBXNativeTarget "QiscusRTC-QiscusRTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				530D686455C8C7E0EC4FA41D137D6E25 /* Debug */,
+				888629F306EC9E114EE18662CE80C700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C07ED8089F70A31B83996A8910D7F18 /* Debug */,
+				98F29E7567052F62660DDD7069ADF73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9DF6F4A9C6269DF47D31D0C814205F /* Debug */,
+				6D2164B6D3B608702430B026359297B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71D7CAFF90493D9E5C25D59075AE855E /* Build configuration list for PBXNativeTarget "Pods-Qiscus_VideoCall_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E0ADF70FBF9B1FC0C7EB9F414CA9E0C /* Debug */,
+				B915F3203C55885143D6BF5D8FD0AE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE257F58B14076209DF99A1177F67A8 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE188A9897749874A19DA2E585FEBF37 /* Debug */,
+				F1E64D46146C952174015F6FBEE5341C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9295D0AFF413F7152C1EF6B1141EA694 /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE7DA615A79FEB1C66DD6C714C8EC632 /* Debug */,
+				81955D36F06AB91E10B08B0A93FB475B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61F96D82C9139D38C4116DDAE14D0BB /* Build configuration list for PBXNativeTarget "QiscusRTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480C1F62C27AD6B051E7E564F2EBDB81 /* Debug */,
+				24652079A736FB0FE673DDBF35BC0B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

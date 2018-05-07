@@ -1,0 +1,3 @@
+rootProject.name = 'Qiscus_VideoCall_IOS'
+
+include ':app'
