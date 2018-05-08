@@ -31,7 +31,7 @@ class QiscusVC: NSObject{
     
     alert.addAction(UIAlertAction(title: "Video", style: .destructive , handler:{ (UIAlertAction)in
       QiscusRTC.incomingCall(roomId: roomName, isVideo: true, calleerUsername: username, calleerDisplayName: username) { (target, error) in
-        if error == nil {
+        if error == nil {          
 //          self.present(target, animated: true, completion: nil)
         }
       }
