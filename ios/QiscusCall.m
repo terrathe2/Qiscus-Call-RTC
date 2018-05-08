@@ -13,44 +13,27 @@
 
 RCT_EXPORT_MODULE();
 
-RCT_EXPORT_METHOD(setup:(NSString *)appID appSecret:(NSString *)appSecret) {
+RCT_EXPORT_METHOD(setup:(NSString *)appID appSecret:(NSString *)appSecret appName:(NSString *)appName) {
   RCTLogInfo(@"setup Streaming %@", appID);
   self.client   = [QiscusRTC shared];
-//  [QiscusRTC ini]
-
+  [QiscusRTC configWithAppId:appID appSecret:appSecret appName:appName];
 }
 
-RCT_EXPORT_METHOD(register:(NSString *)appID appSecret:(NSString *)appSecret) {
-  RCTLogInfo(@"setup Streaming %@", appID);
-  self.client   = [QiscusRTC shared];
-  //  [QiscusRTC ini]
-  
+RCT_EXPORT_METHOD(callRegister:(NSString *)username displayName:(NSString *)displayName) {
+  RCTLogInfo(@"setup Streaming %@", username);
+  [QiscusRTC registerWithUsername:username displayName:displayName avatarUrl:@"http://"];
 }
 
-RCT_EXPORT_METHOD(createStreaming:(NSString *)title tags:(NSDictionary<NSString *,id> *)tags callback:(RCTResponseSenderBlock)callback ) {
+RCT_EXPORT_METHOD(startCall:(NSString *)roomID isVideo:(BOOL *)isVideo calleeUsername:(NSString *)calleeUsername calleeDisplayname:(NSString *)calleeDisplayname calleeDisplayAvatar:(NSString *)calleeDisplayAvatar) {
   RCTLogInfo(@"create Streaming");
   
-//  [self.client createStreamWithTitle:title tags:tags completion:^(Stream *stream) {
-//    RCTLogInfo(@"create Streaming %@", stream.streamUrl);
-//
-//    if (stream != NULL) {
-//      callback(@[[NSNull null], stream.streamUrl]);
-//    }else {
-//      callback(@[[NSNull null], @"Error"]);
-//    }
-//  }];
+  [QiscusRTC startCallWithRoomId:@"" isVideo:YES calleeUsername:@"" calleeDisplayName:@"" calleeDisplayAvatar:@"http://" completionHandler:^(UIViewController * target, NSError * error) {
+      dispatch_async(dispatch_get_main_queue(), ^{
+          target.modalPresentationStyle = UIModalPresentationFullScreen;
+          AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+          [delegate.rootViewController presentViewController:target animated:YES completion:nil];
+      });
+  }];
 };
-
-RCT_EXPORT_METHOD(buildStreaming:(NSString *)url) {
-  RCTLogInfo(@"build Streaming");
-//  [self.client buildStreamWithStreamUrl:url completionHandler:^(UIViewController *target, NSError *error) {
-//    dispatch_async(dispatch_get_main_queue(), ^{
-//      
-//      target.modalPresentationStyle = UIModalPresentationFullScreen;
-//      AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-//      [delegate.rootViewController presentViewController:target animated:YES completion:nil];
-//    });
-//  }];
-}
 
 @end
