@@ -6,7 +6,7 @@ target 'Qiscus_VideoCall_IOS' do
   use_frameworks!
 
   # Pods for Qiscus_VideoCall_IOS
-  pod 'QiscusRTC', '0.1.8'
+  pod 'QiscusRTC', :git => 'http://github.com/qiscus/QiscusRTC.git', :branch => 'master'
   
   post_install do |installer|
       installer.pods_project.targets.each do |target|
