@@ -715,7 +715,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = PH7372N2N8;
+						DevelopmentTeam = 44NN6DZUQU;
 						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 					};
@@ -1276,7 +1276,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = PH7372N2N8;
+				DEVELOPMENT_TEAM = 44NN6DZUQU;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Qiscus_VideoCall_IOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -1306,7 +1306,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PH7372N2N8;
+				DEVELOPMENT_TEAM = 44NN6DZUQU;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Qiscus_VideoCall_IOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
