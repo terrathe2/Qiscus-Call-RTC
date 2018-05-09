@@ -14,14 +14,14 @@
 RCT_EXPORT_MODULE();
 
 RCT_EXPORT_METHOD(setup:(NSString *)appID appSecret:(NSString *)appSecret appName:(NSString *)appName) {
-  RCTLogInfo(@"setup Streaming %@", appID);
+  RCTLogInfo(@"setup VideoCall %@", appID);
   self.client   = [QiscusRTC shared];
   [QiscusRTC configWithAppId:appID appSecret:appSecret appName:appName];
 }
 
-RCT_EXPORT_METHOD(callRegister:(NSString *)username displayName:(NSString *)displayName) {
-  RCTLogInfo(@"setup Streaming %@", username);
-  [QiscusRTC registerWithUsername:username displayName:displayName avatarUrl:@"http://"];
+RCT_EXPORT_METHOD(callRegister:(NSString *)username displayName:(NSString *)displayName avatarUrl:(NSString *)avatarUrl) {
+  RCTLogInfo(@"setup VideoCall %@", username);
+  [QiscusRTC registerWithUsername:username displayName:displayName avatarUrl:avatarUrl];
 }
 
 RCT_EXPORT_METHOD(startCall:(NSString *)roomID isVideo:(BOOL *)isVideo calleeUsername:(NSString *)calleeUsername calleeDisplayname:(NSString *)calleeDisplayname calleeDisplayAvatar:(NSString *)calleeDisplayAvatar) {
