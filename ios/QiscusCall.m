@@ -14,7 +14,7 @@
 RCT_EXPORT_MODULE();
 
 RCT_EXPORT_METHOD(setup:(NSString *)appID appSecret:(NSString *)appSecret appName:(NSString *)appName) {
-  RCTLogInfo(@"setup VideoCall %@", appID);
+  RCTLogInfo(@"app id %@ ,secret %@", appID, appSecret);
   self.client   = [QiscusRTC shared];
   [QiscusRTC configWithAppId:appID appSecret:appSecret appName:appName];
 }
@@ -31,7 +31,7 @@ RCT_EXPORT_METHOD(startCall:(NSString *)roomID isVideo:(BOOL *)isVideo calleeUse
       dispatch_async(dispatch_get_main_queue(), ^{
           target.modalPresentationStyle = UIModalPresentationFullScreen;
           AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-          [delegate.rootViewController presentViewController:target animated:YES completion:nil];
+          [delegate.window.rootViewController presentViewController:target animated:YES completion:nil];
       });
   }];
 };
@@ -43,7 +43,7 @@ RCT_EXPORT_METHOD(incomingCall:(NSString *)roomID isVideo:(BOOL *)isVideo callee
     dispatch_async(dispatch_get_main_queue(), ^{
       target.modalPresentationStyle = UIModalPresentationFullScreen;
       AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-      [delegate.rootViewController presentViewController:target animated:YES completion:nil];
+      [delegate.window.rootViewController presentViewController:target animated:YES completion:nil];
     });
   }];
   

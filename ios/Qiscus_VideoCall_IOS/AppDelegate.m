@@ -30,15 +30,12 @@
   rootViewController.view = rootView;
   
   self.window.rootViewController = rootViewController;
-  self.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
   return YES;
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
   // TODO handle incoming call, when phone is locked and or receive from push kit
-  BOOL *isCallActive = [QiscusRTC isCallActive];
-  NSLog(@"check call active %@", isCallActive);
 }
 
 @end

@@ -22,11 +22,12 @@ export default class App extends Component {
   }
 
   componentDidMount() {
-    QiscusVC.setup('qlue-MH', 'ZApvfLBH2x', 'POLISI-110')
-    QiscusVC.callRegister(this.userName, 'Administrator', 'http://')
+    // QiscusVC.setup('qlue-MH', 'ZApvfLBH2x', 'POLISI-110')
+    QiscusVC.setup('sample-application-C2', 'KpPiqKGpoN', 'POLISI-110')
+    QiscusVC.callRegister('juang', 'Administrator', 'http://')
   }
 
-  userName = 'juang'
+  userName = 'qiscus'
   roomId = ''
 
   _handleInput = (text, desc) => {
@@ -45,7 +46,7 @@ export default class App extends Component {
   }
 
   _handleAnswerCall = () => {
-    QiscusVC.incomingCall(this.roomId, true, this.userName, 'Administrator', 'http://')
+    QiscusVC.incomingCall(this.roomId, false, this.userName, 'Administrator', 'http://')
   }
 
   render() {
