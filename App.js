@@ -22,11 +22,11 @@ export default class App extends Component {
   }
 
   componentDidMount() {
-    QiscusVC.setup('appId', 'appSecret', 'appName')
-    QiscusVC.callRegister('username', 'displayName', 'avatarUrl')
+    QiscusVC.setup('sample-application-C2', 'KpPiqKGpoN', 'Qiscus')
+    QiscusVC.callRegister(this.username, this.username, 'http://')
   }
 
-  username = ''
+  username = 'juang'
   roomId = ''
 
   _handleInput = (text, desc) => {
@@ -36,16 +36,16 @@ export default class App extends Component {
       case 'roomId':
         return this.roomId = text
       default:
-        return
+        return this.username
     }
   }
 
   _handleCall = () => {
-    QiscusVC.startCall(this.roomId, true, this.username, 'calleeDisplayName', 'http://calleeDisplayAvatar')
+    QiscusVC.startCall(this.roomId, true, this.username, 'Test User', 'http://')
   }
 
   _handleAnswerCall = () => {
-    QiscusVC.incomingCall(this.roomId, true, this.username, 'callerDisplayName', 'http://callerDisplayAvatar')
+    QiscusVC.incomingCall(this.roomId, true, this.username, 'Administrator', 'http://')
   }
 
   render() {
@@ -56,13 +56,10 @@ export default class App extends Component {
         </Text>
         <TextInput
           ref={(input) => this.username = input}
-          onSubmitEditing={() => this.roomId.focus()}
           onChangeText={text => this._handleInput(text, 'username')}
           placeholder="Caller username"
           placeholderTextColor='rgba(0, 0, 0, 0.5)'
-          returnKeyType="next"
-          autoCapitalize='none'
-          autoCorrect={false}
+          editable={false}
           value={this.username}
           style={styles.textInput}
         />

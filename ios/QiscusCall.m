@@ -24,7 +24,7 @@ RCT_EXPORT_METHOD(callRegister:(NSString *)username displayName:(NSString *)disp
   [QiscusRTC registerWithUsername:username displayName:displayName avatarUrl:avatarUrl];
 }
 
-RCT_EXPORT_METHOD(startCall:(NSString *)roomID isVideo:(BOOL *)isVideo calleeUsername:(NSString *)calleeUsername calleeDisplayname:(NSString *)calleeDisplayname calleeDisplayAvatar:(NSString *)calleeDisplayAvatar) {
+RCT_EXPORT_METHOD(startCall:(NSString *)roomID isVideo:(BOOL *)isVideo calleeUsername:(NSString *)calleeUsername calleeDisplayname:(NSString *)calleeDisplayname calleeDisplayAvatar:(NSURL *)calleeDisplayAvatar) {
   RCTLogInfo(@"start Call");
   
   [QiscusRTC startCallWithRoomId:roomID isVideo:isVideo calleeUsername:calleeUsername calleeDisplayName:calleeDisplayname calleeDisplayAvatar:calleeDisplayAvatar completionHandler:^(UIViewController * target, NSError * error) {
@@ -36,7 +36,7 @@ RCT_EXPORT_METHOD(startCall:(NSString *)roomID isVideo:(BOOL *)isVideo calleeUse
   }];
 };
 
-RCT_EXPORT_METHOD(incomingCall:(NSString *)roomID isVideo:(BOOL *)isVideo calleerUsername:(NSString *)calleerUsername calleerDisplayname:(NSString *)calleerDisplayname calleerDisplayAvatar:(NSString *)calleerDisplayAvatar) {
+RCT_EXPORT_METHOD(incomingCall:(NSString *)roomID isVideo:(BOOL *)isVideo calleerUsername:(NSString *)calleerUsername calleerDisplayname:(NSString *)calleerDisplayname calleerDisplayAvatar:(NSURL *)calleerDisplayAvatar) {
   RCTLogInfo(@"incoming Call");
   
   [QiscusRTC incomingCallWithRoomId:roomID isVideo:isVideo calleerUsername:calleerUsername calleerDisplayName:calleerDisplayname calleerDisplayAvatar:calleerDisplayAvatar completionHandler:^(UIViewController * target, NSError * error) {
