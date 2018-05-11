@@ -23,16 +23,16 @@ export default class App extends Component {
 
   componentDidMount() {
     QiscusVC.setup('qlue-MH', 'ZApvfLBH2x', 'POLISI-110')
-    QiscusVC.callRegister('juang', 'Administrator', 'http://')
+    QiscusVC.callRegister(this.userName, 'Administrator', 'http://')
   }
 
-  username = 'juang'
+  userName = 'juang'
   roomId = ''
 
   _handleInput = (text, desc) => {
     switch (desc) {
       case 'username':
-        return this.username = text
+        return this.userName = text
       case 'roomId':
         return this.roomId = text
       default:
@@ -41,11 +41,11 @@ export default class App extends Component {
   }
 
   _handleCall = () => {
-    QiscusVC.startCall(this.roomId, true, this.username, this.username, 'http://')
+    QiscusVC.startCall(this.roomId, true, this.userName, this.userName, 'http://')
   }
 
   _handleAnswerCall = () => {
-    QiscusVC.incomingCall(this.roomId, true, this.username, 'Administrator', 'http://')
+    QiscusVC.incomingCall(this.roomId, true, this.userName, 'Administrator', 'http://')
   }
 
   render() {
@@ -60,7 +60,7 @@ export default class App extends Component {
           placeholder="Caller username"
           placeholderTextColor='rgba(0, 0, 0, 0.5)'
           editable={false}
-          value={this.username}
+          value={this.userName}
           style={styles.textInput}
         />
         <TextInput
