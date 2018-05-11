@@ -36,15 +36,14 @@ RCT_EXPORT_METHOD(startCall:(NSString *)roomID isVideo:(BOOL *)isVideo calleeUse
   }];
 };
 
-RCT_EXPORT_METHOD(incomingCall:(NSString *)roomID isVideo:(BOOL *)isVideo calleerUsername:(NSString *)calleerUsername calleerDisplayname:(NSString *)calleerDisplayname calleerDisplayAvatar:(NSURL *)calleerDisplayAvatar) {
+RCT_EXPORT_METHOD(incomingCall:(NSString *)roomID isVideo:(BOOL *)isVideo calleerUsername:(NSString *)calleerUsername calleerDisplayname:(NSString *)calleerDisplayname calleerDisplayAvatar:(NSString *)calleerDisplayAvatar) {
   RCTLogInfo(@"incoming Call");
-  
-  [QiscusRTC incomingCallWithRoomId:roomID isVideo:isVideo calleerUsername:calleerUsername calleerDisplayName:calleerDisplayname calleerDisplayAvatar:calleerDisplayAvatar completionHandler:^(UIViewController * target, NSError * error) {
+
+  [QiscusRTC incomingCallWithRoomId:roomID isVideo:isVideo calleerUsername:calleerUsername calleerDisplayName:calleerDisplayname calleerDisplayAvatar:[NSURL URLWithString:calleerDisplayAvatar] completionHandler:^(UIViewController * target, NSError * error) {
     dispatch_async(dispatch_get_main_queue(), ^{
       target.modalPresentationStyle = UIModalPresentationFullScreen;
       AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
       [delegate.rootViewController presentViewController:target animated:YES completion:nil];
-//      [delegate.rootViewController.navigationController pushViewController:target animated:YES];
     });
   }];
   
