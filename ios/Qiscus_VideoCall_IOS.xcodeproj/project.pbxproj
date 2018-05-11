@@ -653,7 +653,6 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				5F3FEB83D5A610CDFAF99B4C /* [CP] Embed Pods Frameworks */,
-				5860DA0291A94FE4E43E94D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -716,9 +715,9 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = QG8KA4P8TE;
+						DevelopmentTeam = 44NN6DZUQU;
 						LastSwiftMigration = 0930;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -1126,21 +1125,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		5860DA0291A94FE4E43E94D2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Qiscus_VideoCall_IOS/Pods-Qiscus_VideoCall_IOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5F3FEB83D5A610CDFAF99B4C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1289,10 +1273,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = QG8KA4P8TE;
+				DEVELOPMENT_TEAM = 44NN6DZUQU;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Qiscus_VideoCall_IOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -1304,8 +1288,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiscusdev.qiscusCall;
 				PRODUCT_NAME = Qiscus_VideoCall_IOS;
-				PROVISIONING_PROFILE = "c4e66a74-b52f-4300-ab2e-f2dd1359bc35";
-				PROVISIONING_PROFILE_SPECIFIER = QiscusDev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Qiscus_VideoCall_IOS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -1320,9 +1304,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QG8KA4P8TE;
+				DEVELOPMENT_TEAM = 44NN6DZUQU;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Qiscus_VideoCall_IOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -1334,8 +1318,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiscusdev.qiscusCall;
 				PRODUCT_NAME = Qiscus_VideoCall_IOS;
-				PROVISIONING_PROFILE = "c4e66a74-b52f-4300-ab2e-f2dd1359bc35";
-				PROVISIONING_PROFILE_SPECIFIER = QiscusDev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Qiscus_VideoCall_IOS-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";

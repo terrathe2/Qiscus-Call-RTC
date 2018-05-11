@@ -41,11 +41,11 @@ export default class App extends Component {
   }
 
   _handleCall = () => {
-    QiscusVC.startCall(this.roomId, true, this.username, 'calleeDisplayName', 'https://calleeDisplayAvatar')
+    QiscusVC.startCall(this.roomId, true, this.username, 'calleeDisplayName', 'http://calleeDisplayAvatar')
   }
 
   _handleAnswerCall = () => {
-    QiscusVC.incomingCall(this.roomId, true, this.username, 'callerDisplayName', 'https://callerDisplayAvatar')
+    QiscusVC.incomingCall(this.roomId, true, this.username, 'callerDisplayName', 'http://callerDisplayAvatar')
   }
 
   render() {
@@ -69,7 +69,7 @@ export default class App extends Component {
         <TextInput
           ref={(input) => this.roomId = input}
           onChangeText={text => this._handleInput(text, 'roomId')}
-          placeholder="Password"
+          placeholder="Room Id"
           placeholderTextColor='rgba(0, 0, 0, 0.5)'
           returnKeyType="default"
           autoCapitalize='none'
